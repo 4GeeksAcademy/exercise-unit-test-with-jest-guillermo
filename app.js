@@ -4,7 +4,7 @@ let oneEuroIs = {
   GBP: 0.87, // british pound
 };
 
-const fromEuroToDollar = function (valueInEuro) {
+const fromEuroToDollar = (valueInEuro) => {
   // Convert the given valueInEuro to dollars
   let valueInDollar = valueInEuro * oneEuroIs["USD"];
   // return the dollar value
